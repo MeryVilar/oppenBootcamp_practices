@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seudoclases</title>
+    <link rel="stylesheet" href="seudoclases.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .hover{
+            width: 500px;
+            height: 150px;
+            background-color: bisque;
+        }
+        .hover:hover/*seudoclases- utilizando :, hover se activa en cuanto el raton pasa por encima*/{
+            background-color: brown;
+        }
+        .listado{
+            padding: 15px;
+            background-color: aquamarine;
+        }
+        .listado p:first-child/*hace referencia a primer hijo(parrafo 1*/{
+        color: white;
+        }
+        a:link{/*link no visitados tdavia*/
+        color: black;
+        }
+        a:visited{
+            color: pink;
+        }
+        a:hover{
+            color: brown;
+        }
+        a:active{/*importante seguir orden*/
+            color: yellowgreen;
+        }
+        /*https://www.w3schools.com/css/css_pseudo_classes.asp*/
+        
+    </style>
+    
+</head>
+<body>
+    <div class="hover">
+        <p>Dolore officia eiusmod veniam nisi 
+            consectetur ex qui do sint laboris 
+            adipisicing et est. Tempor exercitation 
+            irure officia excepteur culpa elit 
+            excepteur. Fugiat labore ullamco nisi 
+            sunt deserunt quis esse mollit elit 
+            ullamco minim dolor. </p>
+
+    </div>
+    <div class="listado">
+        <p>Parrafo 1</p>
+        <p>Parrafo 2</p>
+        <p>Parrafo 3</p>
+        <p>Parrafo 4</p>
+
+    </div>
+    <div class="enlaces">
+        <a href="http://google.com" target="_blank">Envia a google</a>
+        <a href="http://marca.com" target="_blank">Envia a marca</a>
+        <a href="http://instagram.com" target="_blank">Envia a google</a>
+
+    </div>
+</body>
+</html>

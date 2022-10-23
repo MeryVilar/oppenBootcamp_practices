@@ -1,0 +1,62 @@
+.input{
+    width: 100%;
+    padding: 5px 10px;
+    border: 2px solid green;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+.input[type="password"]{
+    color: yellow;
+}
+.input-moderno{
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    padding: 5px;
+    color: green;
+}
+
+.input-moderno::placeholder{
+    color: red;
+}
+.input-moderno:focus{
+    border-bottom: 1px solid black;
+}
+
+.input-background{
+    background-color: rgb(255, 204, 127);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;   
+    outline: none;
+    color: white;
+    box-shadow: 0 0  10px chocolate;
+}
+.input-background::placeholder{
+    color: blue;
+}
+
+.input-search{
+   /* border: none*/
+    padding: 5px;
+    padding-left: 30px;
+    border-radius: 8px;
+    background-color: white;
+    margin: 10px;
+    outline: none;
+    background-image: url(../7.formularios/lupa.jpg);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 90px;
+}
+textarea{
+    resize: none;
+}
+
+select{
+    width: 100%;
+    padding: 15px;
+    background-color: grey;
+}
+

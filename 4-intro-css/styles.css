@@ -1,0 +1,26 @@
+h1 {
+    color: red;
+}
+/*comentario*/
+p {
+    color: blue;
+    font-size: 16pt;
+}
+#primera-noticia{
+    color: green;
+    font-size: 12pt;
+}
+#segunda-noticia{
+    color: brown;
+    font-size: 20pt;
+}
+.encabezado{
+    font-size: 30pt;
+    text-transform: uppercase;
+}
+*.warning{
+    color: red;
+}
+.autor, .año, .Lugar{
+    text-decoration: underline;
+}
